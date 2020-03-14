@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		50DC2D0A241C5F1000999D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D09241C5F1000999D07 /* AppDelegate.swift */; };
-		50DC2D0C241C5F1000999D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D0B241C5F1000999D07 /* ViewController.swift */; };
+		50DC2D0C241C5F1000999D07 /* Pythagoras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D0B241C5F1000999D07 /* Pythagoras.swift */; };
 		50DC2D0F241C5F1100999D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D0D241C5F1100999D07 /* Main.storyboard */; };
 		50DC2D11241C5F2900999D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D10241C5F2900999D07 /* Assets.xcassets */; };
 		50DC2D14241C5F2900999D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D12241C5F2900999D07 /* LaunchScreen.storyboard */; };
 		50DC2D1F241C5F2C00999D07 /* datastructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D1E241C5F2C00999D07 /* datastructuresTests.swift */; };
 		50DC2D2A241C5F2C00999D07 /* datastructuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D29241C5F2C00999D07 /* datastructuresUITests.swift */; };
+		50DC2D38241C5FC600999D07 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D37241C5FC600999D07 /* Temperature.swift */; };
+		50DC2D3C241C641700999D07 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D3B241C641700999D07 /* Pythagoras.storyboard */; };
+		50DC2D40241C66A600999D07 /* Temperature.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D3F241C66A600999D07 /* Temperature.storyboard */; };
+		50DC2D46241C678F00999D07 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D45241C678F00999D07 /* triangle.png */; };
+		50DC2D48241C67A200999D07 /* termometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D47241C67A200999D07 /* termometer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		50DC2D06241C5F1000999D07 /* datastructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datastructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DC2D09241C5F1000999D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DC2D0B241C5F1000999D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50DC2D0B241C5F1000999D07 /* Pythagoras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pythagoras.swift; sourceTree = "<group>"; };
 		50DC2D0E241C5F1100999D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50DC2D10241C5F2900999D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50DC2D13241C5F2900999D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		50DC2D25241C5F2C00999D07 /* datastructuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datastructuresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DC2D29241C5F2C00999D07 /* datastructuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datastructuresUITests.swift; sourceTree = "<group>"; };
 		50DC2D2B241C5F2C00999D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DC2D37241C5FC600999D07 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		50DC2D3B241C641700999D07 /* Pythagoras.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythagoras.storyboard; sourceTree = "<group>"; };
+		50DC2D3F241C66A600999D07 /* Temperature.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Temperature.storyboard; sourceTree = "<group>"; };
+		50DC2D45241C678F00999D07 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		50DC2D47241C67A200999D07 /* termometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = termometer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		50DC2CFD241C5F0F00999D07 = {
 			isa = PBXGroup;
 			children = (
+				50DC2D47241C67A200999D07 /* termometer.png */,
+				50DC2D45241C678F00999D07 /* triangle.png */,
 				50DC2D08241C5F1000999D07 /* datastructures */,
 				50DC2D1D241C5F2C00999D07 /* datastructuresTests */,
 				50DC2D28241C5F2C00999D07 /* datastructuresUITests */,
@@ -97,11 +109,10 @@
 		50DC2D08241C5F1000999D07 /* datastructures */ = {
 			isa = PBXGroup;
 			children = (
+				50DC2D3A241C613600999D07 /* Views */,
+				50DC2D39241C611E00999D07 /* View Controller */,
 				50DC2D09241C5F1000999D07 /* AppDelegate.swift */,
-				50DC2D0B241C5F1000999D07 /* ViewController.swift */,
-				50DC2D0D241C5F1100999D07 /* Main.storyboard */,
 				50DC2D10241C5F2900999D07 /* Assets.xcassets */,
-				50DC2D12241C5F2900999D07 /* LaunchScreen.storyboard */,
 				50DC2D15241C5F2900999D07 /* Info.plist */,
 			);
 			path = datastructures;
@@ -123,6 +134,26 @@
 				50DC2D2B241C5F2C00999D07 /* Info.plist */,
 			);
 			path = datastructuresUITests;
+			sourceTree = "<group>";
+		};
+		50DC2D39241C611E00999D07 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50DC2D37241C5FC600999D07 /* Temperature.swift */,
+				50DC2D0B241C5F1000999D07 /* Pythagoras.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		50DC2D3A241C613600999D07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50DC2D0D241C5F1100999D07 /* Main.storyboard */,
+				50DC2D12241C5F2900999D07 /* LaunchScreen.storyboard */,
+				50DC2D3B241C641700999D07 /* Pythagoras.storyboard */,
+				50DC2D3F241C66A600999D07 /* Temperature.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DC2D14241C5F2900999D07 /* LaunchScreen.storyboard in Resources */,
+				50DC2D40241C66A600999D07 /* Temperature.storyboard in Resources */,
 				50DC2D11241C5F2900999D07 /* Assets.xcassets in Resources */,
+				50DC2D3C241C641700999D07 /* Pythagoras.storyboard in Resources */,
+				50DC2D48241C67A200999D07 /* termometer.png in Resources */,
+				50DC2D46241C678F00999D07 /* triangle.png in Resources */,
 				50DC2D0F241C5F1100999D07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DC2D0C241C5F1000999D07 /* ViewController.swift in Sources */,
+				50DC2D0C241C5F1000999D07 /* Pythagoras.swift in Sources */,
 				50DC2D0A241C5F1000999D07 /* AppDelegate.swift in Sources */,
+				50DC2D38241C5FC600999D07 /* Temperature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
