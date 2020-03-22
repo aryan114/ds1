@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50561E5F241D8BF3006D2E8F /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50561E5E241D8BF3006D2E8F /* Area.swift */; };
+		50561E61241D9427006D2E8F /* Area.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50561E60241D9427006D2E8F /* Area.storyboard */; };
 		50DC2D0A241C5F1000999D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D09241C5F1000999D07 /* AppDelegate.swift */; };
 		50DC2D0C241C5F1000999D07 /* Pythagoras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC2D0B241C5F1000999D07 /* Pythagoras.swift */; };
 		50DC2D0F241C5F1100999D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DC2D0D241C5F1100999D07 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50561E5E241D8BF3006D2E8F /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		50561E60241D9427006D2E8F /* Area.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Area.storyboard; sourceTree = "<group>"; };
 		50DC2D06241C5F1000999D07 /* datastructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datastructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DC2D09241C5F1000999D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50DC2D0B241C5F1000999D07 /* Pythagoras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pythagoras.swift; sourceTree = "<group>"; };
@@ -139,8 +143,9 @@
 		50DC2D39241C611E00999D07 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				50DC2D37241C5FC600999D07 /* Temperature.swift */,
 				50DC2D0B241C5F1000999D07 /* Pythagoras.swift */,
+				50DC2D37241C5FC600999D07 /* Temperature.swift */,
+				50561E5E241D8BF3006D2E8F /* Area.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				50DC2D12241C5F2900999D07 /* LaunchScreen.storyboard */,
 				50DC2D3B241C641700999D07 /* Pythagoras.storyboard */,
 				50DC2D3F241C66A600999D07 /* Temperature.storyboard */,
+				50561E60241D9427006D2E8F /* Area.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				50DC2D48241C67A200999D07 /* termometer.png in Resources */,
 				50DC2D46241C678F00999D07 /* triangle.png in Resources */,
 				50DC2D0F241C5F1100999D07 /* Main.storyboard in Resources */,
+				50561E61241D9427006D2E8F /* Area.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +300,7 @@
 			files = (
 				50DC2D0C241C5F1000999D07 /* Pythagoras.swift in Sources */,
 				50DC2D0A241C5F1000999D07 /* AppDelegate.swift in Sources */,
+				50561E5F241D8BF3006D2E8F /* Area.swift in Sources */,
 				50DC2D38241C5FC600999D07 /* Temperature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

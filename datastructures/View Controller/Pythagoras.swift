@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  datastructures
 //
-//  Created by Learnsoft Technology Group on 3/13/20.
+//  Created by Amberkar, Aryan  on 3/13/20.
 //  Copyright © 2020 Aryan Amberkar. All rights reserved.
 //
 
